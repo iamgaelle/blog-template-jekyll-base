@@ -122,7 +122,7 @@ section { position: relative; }
   background-color: rgba(0,0,0,0.5);
 }
 
-
+/* the below code takes anything inside the banner container and pushing it in front  */
 .bg-overlay > * {
   z-index: 2;
   position: relative;
@@ -140,6 +140,7 @@ section { position: relative; }
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
+/* if class onf bg-img on anchor link: set it as display block to prevent to collapse as anchor link are display inline by default, they don't ahve any size */
 a.bg-image { display: block;}
 
 .landscape     { padding-bottom: 66% ; }
